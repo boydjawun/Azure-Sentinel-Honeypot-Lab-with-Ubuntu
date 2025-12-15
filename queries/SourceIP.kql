@@ -1,0 +1,9 @@
+Syslog
+| where Facility in ("auth", "authpriv")
+| where SyslogMessage contains "Invalid user" or SyslogMessage contains "Failed password" or SyslogMessage contains "from"
+| extend SourceIP = extract(@"from ((?:\d{1,3}\.){3}\d{1,3})", 1, SyslogMessage)
+| where isnotempty(SourceIP)
+| project TimeGenerated, SyslogMessage, SourceIP
+| sort by TimeGenerated desc
+
+//Used KQL and created a column named SourceIP to show IP Addresses of attackers. The IP Addresses are derived from the SyslogMessage column and stored in the SourceIP column
