@@ -34,9 +34,9 @@ The the geolocation and map.json files used in this project was provided by Josh
 - Create a Resource Group
     > Resource Group - A contianer that helps organize and manage related cloud resources
     - Type *Resource Group* in the search bar and fill in:
-          - The Subscription type
-          - The name of the Resource Group
-          - The region
+     - The Subscription type
+     - The name of the Resource Group
+     - The region
 - After creating the Resource Group review + create then click create after reviewing the details of the Resource Group
     
 <img width="951" height="906" alt="image(1)" src="https://github.com/user-attachments/assets/0a278112-18b0-42ad-8e7e-f506d87bf87e" />
@@ -199,7 +199,7 @@ ___
 *The first 3 logs are of the failed log in attempts*
     
 
-# Configure a Log Repository and Forward our VM logs into it + Creating Sentinel Instance
+# Configure a Log Repository + Creating Sentinel Instance
 
 - Type log analytics workspaces in the search bar and click create
     
