@@ -18,7 +18,8 @@ I created a Home SOC Lab in the cloud using Microsoft Azure. I start of by creat
 
     
 
-![*Created Resource Group. Click create, which is at the bottom of this screen*](attachment:4bdfc46f-0159-4c1c-974e-e11a96187d73:Screenshot_2025-12-10_012208.png)
+![*Created Resource Group. Click create, which is at the bottom of this screen*](<img width="595" height="474" alt="Screenshot 2025-12-10 012208" src="https://github.com/user-attachments/assets/952018a4-3f52-44d3-ac62-0fdb3f96300f" />
+)
 
 *Created Resource Group. Click create, which is at the bottom of this screen*
 
