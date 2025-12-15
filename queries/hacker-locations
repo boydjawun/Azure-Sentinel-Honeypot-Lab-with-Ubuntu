@@ -11,3 +11,4 @@ Syslog
 | project TimeGenerated, Computer,AttackerIP = SourceIP, cityname, countryname, latitude, longitude
 
 //This KQL Query reveals where the IP Address is located and project is used to show only the columns needed
+// _GetWatchlist() is used after creating the Watchlist
