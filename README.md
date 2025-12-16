@@ -3,7 +3,7 @@ My home lab using Azure Sentinel and Ubuntu VM as a honeypot
 
 A Home SOC Lab will be created in the cloud using Microsoft Azure. These are the steps that outline the project: 
 - Start off by creating a free Azure subscription
-- Then head to azure.portal to create the resource group(folder) for the entire project to be in 
+- Then head to your azure portal to create the resource group(folder) for the entire project to be in 
 - Next, create the Virtual Network and a Virtual Machine(Honeypot) using Ubuntu as the server
 - Disable the Linux firewall(UFW) and configure the NSG(Network Security Group)
 - Create the Log Analytics Workspace(to log failed attack attempts)
@@ -30,7 +30,7 @@ The the geolocation and map.json files used in this project was provided by Josh
 
 # Create a Resource Group + Virtual Network
 
-- After creating the account head to *azure.portal.com*
+- After creating the account head to your azure portal
 - Create a Resource Group
     > Resource Group - A contianer that helps organize and manage related cloud resources
     - Type *Resource Group* in the search bar and fill in:
