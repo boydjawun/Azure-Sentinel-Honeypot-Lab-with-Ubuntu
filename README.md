@@ -450,5 +450,17 @@ latitude, longitude, friendly_location = strcat(cityname, " (", countryname, ")"
 
 
 - The attack map is live! So the longer you leave the Virtual Machine on the more populated your map will be
-# Avoid Charges
-- To avoid incurring charges from Azure after the project is complete be sure to delete everything used in this project including Virtual Machine, Virtual Network, instances on Sentinel, Log Analytics Workspace, and the Resource Group that your project is currently in
+  
+# How to Delete VM to avoid charges
+- Log into your Azure Portal, and type “Resource Groups” in the search bar:
+  <img width="1913" height="887" alt="Screenshot 2025-12-21 215022" src="https://github.com/user-attachments/assets/4717fbcb-de3b-483e-9cf8-622aa2996021" />
+
+- Click on the created resource group: RG-SOC-Lab and click “Delete Resource Group”:
+<img width="1918" height="913" alt="Screenshot 2025-12-21 214928" src="https://github.com/user-attachments/assets/2a2915d1-2ad0-4d85-afb6-e2abec62dc5a" />
+
+- Enter the Resource Group name to confirm deletion, then click “Delete”:
+  <img width="1910" height="915" alt="Screenshot 2025-12-21 215252" src="https://github.com/user-attachments/assets/6ccb0b48-4107-4b67-8d65-6606c94dca85" />
+
+- This will perminantly remove the VM along with all associated resources( disk, network interface, public IP, Virtual Network, Log Analytics Workspace, Sentinal Instance, etc.) to stop all potential charges. The deletion will take some time to finish. To check that it is deleted, go back to the Resource Groups list and click refresh:
+  <img width="1918" height="900" alt="Screenshot 2025-12-21 220233" src="https://github.com/user-attachments/assets/d14b8b67-4062-465a-9118-778515ada6a3" />
+
