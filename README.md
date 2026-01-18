@@ -1,6 +1,6 @@
 # 🍯Azure Sentinel(SIEM) Honeypot Lab using Ubuntu
 My home lab using Azure Sentinel and an Ubuntu VM as a honeypot.
-<img align="right" img width="353" height="337" alt="Screenshot 2026-01-18 024721" src="https://github.com/user-attachments/assets/80da2272-0709-4faa-a644-48f84d296c91" />
+<img align="right" img width="353" height="337" alt="Screenshot 2026-01-18 024721" src="file:///C:/Users/boydj/Downloads/azure-transparent.svg" />
 
 A Home SOC Lab will be created in the cloud using Microsoft Azure. These are the steps that outline the project: 
 - Start off by creating a free Azure subscription.
@@ -462,7 +462,7 @@ latitude, longitude, friendly_location = strcat(cityname, " (", countryname, ")"
   
 # How to Delete VM to avoid charges
 - Log into your Azure Portal, and type “Resource Groups” in the search bar:
-  <img align="left" img width="353" height="337" alt="Screenshot 2025-12-21 215022" src="file:///C:/Users/boydj/Downloads/azure-transparent.svg" />
+  <img align="left" img width="353" height="337" alt="Screenshot 2025-12-21 215022" src="C:/Users/boydj/Downloads/azure-transparent.svg" />
 
 - Click on the created resource group: RG-SOC-Lab and click “Delete Resource Group”:
 <img width="1918" height="913" alt="Screenshot 2025-12-21 214928" src="https://github.com/user-attachments/assets/2a2915d1-2ad0-4d85-afb6-e2abec62dc5a" />
