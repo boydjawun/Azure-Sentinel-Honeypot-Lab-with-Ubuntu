@@ -472,4 +472,14 @@ latitude, longitude, friendly_location = strcat(cityname, " (", countryname, ")"
 - This will permanantly remove the VM along with all associated resources( disk, network interface, public IP, Virtual Network, Log Analytics Workspace, Sentinal Instance, etc.) to stop all potential charges. The deletion will take some time to finish. To check that it is deleted, go back to the Resource Groups list and click refresh:
 >Also delete the "NetworkWatcherRG" resource group
   <img width="1918" height="900" alt="Screenshot 2025-12-21 220233" src="https://github.com/user-attachments/assets/d14b8b67-4062-465a-9118-778515ada6a3" />
+  
+ ## ⚠️ Disclaimer
+
+**For educational and research purposes only.**
+
+Do NOT use any code or technique in this repository against systems you do not own or have explicit written permission to test.
+
+Unauthorized use is illegal and may result in criminal charges.
+
+The author(s) are not liable for any misuse or damage caused by this project.
 
